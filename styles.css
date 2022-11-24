@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-style: italic;
-    background: #f1f1f1;
+    background: #f7f0eb;
     color: #0f141e;
 }
 
@@ -12,8 +12,14 @@ body {
     font-size: 20px
 }
 
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
 .info-text {
-    color: #86898f;
+    color: black;
+    margin-left: 20px;
 }
 
 
@@ -25,12 +31,25 @@ body {
     margin-bottom: 20px;
 }
 
+.card h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .bg-green {
-    background: #e8feea;
+    background:#bce3b9;
 }
 
 .bg-red {
-    background: rgb(254, 230, 228);
+    background: #dfb9e3;
+}
+
+.bg-blue {
+    background: #b9d1e3;
+}
+
+.bg-orange {
+    background: #f0c28d;
 }
 
 .container {
@@ -40,13 +59,13 @@ body {
 }
 
 .foto {
-    width: 200px;
+    width: 150px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
 
 .btn {
-    background: #111;
+    background: #868991;
     padding: 10px 15px;
     color: white;
     border: none;
@@ -57,7 +76,7 @@ body {
 
 .btn:hover {
     opacity: .8;
-    color: green;
+    color: rgb(192, 192, 192);
 }
 
 a {
@@ -71,9 +90,9 @@ a:hover {
 }
 
 .list {
-    list-style-image: linear-gradient(to left bottom, green, blue);
-    margin: 15px;
-    padding: 0 20px;
+    list-style-image: linear-gradient(to left bottom, red, blue);
+    margin: 15px 0;
+    padding: 0 13px;
 }
 
 .list li {
@@ -91,11 +110,11 @@ a:hover {
 }
 
 .table thead {
-    background: #86898f;
+    background: #868991;
 }
 
 .table tr:hover {
-    background: grey;
+    background: rgb(192, 192, 192);
 }
 
 .form h2 {
@@ -123,7 +142,7 @@ a:hover {
 .form-group label {
     display: block;
     font-size: 14px;
-    color: #86808f;
+    /* color: #86808f; */
 }
 
 .form-group input,
@@ -131,7 +150,7 @@ a:hover {
     width: 100%;
     box-sizing: border-box;
     border: none;
-    background: transparent;
+    /* background: transparent; */
     border-bottom: 1px solid #ccc;
     color: #000;
     padding: 15px 0 10px;
