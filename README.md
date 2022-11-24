@@ -1,5 +1,5 @@
-# Мое резюме
+# My first site
 
-## Результат тут
+## Result is here
 
-[Мой первый сайт] (https://marishk0.github.io/resume/)
+[My first site](https://marishk0.github.io/resume/)
